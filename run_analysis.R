@@ -95,8 +95,8 @@ tidy<-summarise_each(grouped,funs(mean(., na.rm = TRUE)))
 rm(grouped)
 
 ##tidy data frame is a tidy dataset because:
-#Each variable you measure should be in one column, 
-#Each different observation of that variable should be in a different row
+#Each variable is in one column, 
+#Each different observation of that variable is in a different row
 
 #Write the final txt file
 write.table(tidy, "./tidydataset.txt",row.names = FALSE)
