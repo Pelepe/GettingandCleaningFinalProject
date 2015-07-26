@@ -1,35 +1,36 @@
-# Instructions
+### Instructions
 
 * The run_analysis.R script requieres the "UCI HAR Dataset.zip" unzipped and the "UCI HAR Dataset" folder set as Working Directory.
 * This file contains the unique script to perform the analysis.
 
-# Libraries required
+### Libraries required
 
 * dplyr package
 
-# Input files by the script considering "UCI HAR Dataset" as Working Directory
+### Input files by the script considering "UCI HAR Dataset" as Working Directory
 
 * features.txt
+##### Test files requiered
 * ./test/X_test.txt
 * ./test/Y_test.txt
 * ./test/subject_test.txt
+
+##### Training files required
 * ./train/X_train.txt
 * ./train/Y_train.txt
 * ./test/subject_test.txt
 
-# Output file
+### Output file
 
 * ./tidydataset.txt
 
-# GettingandCleaningFinalProject
+### Script description
 
 
 ReadMe Markdown: gives a description of each script that you used and how they are connected. For example, you can use one R script to merge the datasets, and another R script to generate the new data, etc. In the markdown file, you would explain how each of these scripts works together.
 
 
 
-
-library(dplyr)
 
 #STEP 1: Merges the training and the test sets to create one data set.
 
