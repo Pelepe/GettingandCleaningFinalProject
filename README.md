@@ -34,7 +34,7 @@
 3. Considering data dimensions, the script CBINDs SUBJECT, X and Y datasets, for the TEST set.
 4. Considering data dimensions, the script CBINDs SUBJECT, X and Y datasets, for the TRAINING set.
 5. Considering data dimensions and common variables, the script RBINDs the previously created TEST(subject,x,y data) and TRAINING(subject,x,y data), getting a big dataset with all the information available, as it has been requested in the First Step of the Project.
-6. The script removes temporary variable from memory.
+6. The script removes temporary variables from memory.
 7. The script searches for "mean" and "std" in the names vector of the dataset created using regular expressions to get all the possible instances (Mean,mean, Std,std). The script keeps the relevant variables not equal to mean or std as well. All of this is done by using the regular expression "[Mm]ean|[Ss]td|subject|activity".
 8. The script joins (MERGE) the dataset obtained with the activity labels dataset to get "descriptive activity labels" as it has been requested. The MERGE is done by using the Activity Key, wich has been called "activity index".
 9. The script works over the names vector of the dataset, replacing short expressions with descriptive ones (descriptive variable names labeling). The meaning of each variable has been interpreted by using the original available dataset information.
