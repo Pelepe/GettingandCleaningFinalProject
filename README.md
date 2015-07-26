@@ -10,6 +10,7 @@
 ### Input files (considering "UCI HAR Dataset" as Working Directory)
 
 * features.txt
+* activity_labels.txt
 
 ##### Test files required
 
