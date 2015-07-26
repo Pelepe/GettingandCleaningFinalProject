@@ -10,12 +10,15 @@
 ### Input files (considering "UCI HAR Dataset" as Working Directory)
 
 * features.txt
+
 ##### Test files requiered
+
 * ./test/X_test.txt
 * ./test/Y_test.txt
 * ./test/subject_test.txt
 
 ##### Training files required
+
 * ./train/X_train.txt
 * ./train/Y_train.txt
 * ./test/subject_test.txt
