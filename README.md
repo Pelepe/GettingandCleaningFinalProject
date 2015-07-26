@@ -39,9 +39,11 @@
 8. The script joins (MERGE) the dataset obtained with the activity labels dataset to get "descriptive activity labels" as it has been requested. The MERGE is done by using the Activity Key, wich has been called "activity index".
 9. The script works over the names vector of the dataset, replacing short expressions with descriptive ones (descriptive variable names labeling). The meaning of each variable has been interpreted by using the original available dataset information.
 10. Finally, the script creates a second, independent tidy dataset with the average of each variable for each activity and each subject. This is done by using the "GROUP BY" and "SUMMARISE EACH" functions of the DPLYR package. This final dataset is in the **wide form** of tidy data. This dataset is tidy because: 
-**Each variable measured is in one column
-**Each different observation of that variable is in a different row
-11. The final tidy dataset is written to a text file using thw write.table command and row.names=false parameter.
+
+* Each variable measured is in one column
+* Each different observation of that variable is in a different row
+
+11. The final tidy dataset is written to a text file using the write.table command and row.names=false parameter.
 
 
 
