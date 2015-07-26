@@ -11,7 +11,7 @@
 
 * features.txt
 
-##### Test files requiered
+##### Test files required
 
 * ./test/X_test.txt
 * ./test/Y_test.txt
